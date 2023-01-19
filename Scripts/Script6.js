@@ -1,11 +1,4 @@
 /* Projects JS */
-/* Get the modals */
-
-var WEBC1 = document.getElementById("WEBC1");
-var WEBC2 = document.getElementById("WEBC2");
-var WEBC3 = document.getElementById("WEBC3");
-var WEBC4 = document.getElementById("WEBC4");
-
 /* Get the prefecture modals */
 var mp01 = document.getElementById("mp01");
 var mp02 = document.getElementById("mp02");
@@ -27,13 +20,35 @@ var p8 = document.getElementById("prefecture08");
 
 var bg = document.getElementById("bg01");
 
+var register = document.getElementById("reg01");
+var main = document.getElementById("cm0");
+var span = document.getElementById("span01");
+var sp1 = document.getElementById("sp1");
+var sp2 = document.getElementById("sp2");
+var sp3 = document.getElementById("sp3");
+var sp4 = document.getElementById("sp4");
+var sp5 = document.getElementById("sp5");
+var sp6 = document.getElementById("sp6");
+var sp7 = document.getElementById("sp7");
+var sp8 = document.getElementById("sp8");
 
 p1.onclick = function(event)
 {
 	if(p1.onclick)
 	{
 		mp01.style.display = "block";
+		main.style.display = "none";
 
+	}
+	sp1.onclick = function(event)
+	{
+		if(sp1.onclick)
+		{
+			{
+				mp01.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p2.onclick = function(event)
@@ -41,6 +56,17 @@ p2.onclick = function(event)
 	if(p2.onclick)
 	{
 		mp02.style.display = "block";
+		main.style.display = "none";
+	}
+	sp2.onclick = function(event)
+	{
+		if(sp2.onclick)
+		{
+			{
+				mp02.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p3.onclick = function(event)
@@ -48,7 +74,17 @@ p3.onclick = function(event)
 	if(p3.onclick)
 	{
 		mp03.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
+	}
+	sp3.onclick = function(event)
+	{
+		if(sp3.onclick)
+		{
+			{
+				mp03.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p4.onclick = function(event)
@@ -56,7 +92,17 @@ p4.onclick = function(event)
 	if(p4.onclick)
 	{
 		mp04.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
+	}
+	sp4.onclick = function(event)
+	{
+		if(sp4.onclick)
+		{
+			{
+				mp04.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p5.onclick = function(event)
@@ -64,7 +110,17 @@ p5.onclick = function(event)
 	if(p5.onclick)
 	{
 		mp05.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
+	}
+	sp5.onclick = function(event)
+	{
+		if(sp5.onclick)
+		{
+			{
+				mp05.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p6.onclick = function(event)
@@ -72,7 +128,17 @@ p6.onclick = function(event)
 	if(p6.onclick)
 	{
 		mp06.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
+	}
+	sp6.onclick = function(event)
+	{
+		if(sp6.onclick)
+		{
+			{
+				mp06.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p7.onclick = function(event)
@@ -80,7 +146,17 @@ p7.onclick = function(event)
 	if(p7.onclick)
 	{
 		mp07.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
+	}
+	sp7.onclick = function(event)
+	{
+		if(sp7.onclick)
+		{
+			{
+				mp07.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
 p8.onclick = function(event)
@@ -88,47 +164,19 @@ p8.onclick = function(event)
 	if(p8.onclick)
 	{
 		mp08.style.display = "block";
-		//bg.style.filter = "blur(8px)";
+		main.style.display = "none";
 	}
-}
-
-/* PROJECTS CONTAINERS */
-WEBC1.onclick = function(event)
-{
-	if(WEBC1.onclick)
+	sp8.onclick = function(event)
 	{
-		window.location.href = 'WebC1.html';
+		if(sp8.onclick)
+		{
+			{
+				mp08.style.display = "none";
+				main.style.display = "block";		
+			}
+		}
 	}
 }
-
-WEBC2.onclick = function(event)
-{
-	if(WEBC2.onclick)
-	{
-		window.location.href = 'WebC2.html';
-	}
-}
-
-WEBC3.onclick = function(event)
-{
-	if(WEBC2.onclick)
-	{
-		window.location.href = 'WebC3.html';
-	}
-}
-
-WEBC4.onclick = function(event)
-{
-	if(WEBC4.onclick)
-	{
-		window.location.href = 'WebC4.html';
-	}
-}
-
-
-var register = document.getElementById("reg01");
-var main = document.getElementById("cm0");
-var span = document.getElementById("span01");
 
 register.addEventListener("click", function()
 {

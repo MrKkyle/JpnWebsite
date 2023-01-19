@@ -15,31 +15,6 @@
 	</div>
 			
 		<div class = "bg-img" id = "bg01">
-			<!-----
-			<div class = "title-container">
-			
-				<div class = "title-icon">
-					<img src = "icons/icons8-japan-100.png"></img>
-					<div class = "title-text">Welcome!</div>
-				</div>
-				
-				<div class = "title-anime">
-					<img src = "icons/output-onlinepngtools.png"></img>
-				</div>
-				
-				<div class = "title-news">
-					<img src = "icons/icons8-news-100.png"></img>
-				</div>
-				
-				<div class = "title-touristAttractions">
-					<img src = "icons/icons8-theme-park-100.png"></img>
-				</div>
-				
-				<div class = "title-weather">
-					<img src = "icons/icons8-rain-100.png"></img>
-				</div>	
-			</div>
-			--->
 			
 			<div class = "navigation-bar">
 				<div class = "navi"><a href = "#slideshow" onclick = "window.location.href = 'WebsiteSlideshow.html';"">Slideshow</a></div>
@@ -51,15 +26,7 @@
 					onclick = "document.getElementById('id01').style.display = 'block'">Sign-up</a></div>
 				<div class = "navi"><a href = "#anime">Anime</a></div>
 			</div>
-			
-			<!---
-				<button class = "button3" onclick = "window.location.href = 'Website%20Slideshow.html';">SlideShow</button>
-				<button class = "button3" onclick = "window.location.href = 'https://youtu.be/7nLCC_LtFOs';">Videos</button>
-				<button class = "button3" id = "btnWeb">Projects</button>
-				<button class = "button3" id = "reg01" onclick = "document.getElementById('id01').style.display = 'block'">Register!</button>
-				<button class = "button3">Weather</button>
-				<button class = "button3">Animation</button>
-			-->
+
 
 
 			<div id = "id01" class = "modal">
@@ -97,14 +64,6 @@
 					</div>		
 				</form>
 			</div>
-			
-			<!---
-			<div class = "socialM-container">
-				<div class = "socialM-facebook" id = "SMF"></div>
-				<div class = "socialM-Instergram" id = "SMI"></div>
-				<div class = "socialM-Twitter" id = "SMT"></div>
-			</div>
-			--->
 		</div>
 		
 	<div class = "Web-container" id = "WebC">
@@ -136,18 +95,20 @@
 				Special thanks to the following organizations and people
 			</div>
 			<div class = "special w3schools"></div>
-			<div class = "special keenan"></div>
-			<div class = "special ricky"></div>
+			<div class = "special keenan" onclick = "window.location.href = 'https://www.linkedin.com/in/keenan-faure-84a604227/';" target = "_blank"></div>
+			<div class = "special ricky" onclick = "window.location.href = 'https://www.linkedin.com/in/romano-borman-8772a519/';" target = "_blank"></div>
 			<div class = "special wallpaper-abyss"></div>
 			<div class = "special xampp"></div>
 		</div>
 	</div>
 
 	<div class = "modal-prefecture" id = "mp01">
+		<br>
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp01').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Hokkaido</b></div>
+			<span id = "sp1" onclick = "document.getElementById('mp01').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
-			<br><br>
+			<br>
 			<img src = "../Images/Hokkaido.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
 			<br>
 			<br>
@@ -160,17 +121,36 @@
 			but are ideal for winter sports such as skiing and snowboarding, 
 			the celebrated snow festival (Yuki Matsuri) in Sapporo and the frozen 
 			northern seas off the coast of Wakkanai and the islands of Rebun and Rishiri.<br><br>
-			
-			<b>Location</b><br>
-			
-
+			<br>
+			<b>Local Delicacies</b><br>
+			Famous foods you will find in Hokkaido:<br>
+			•Jingisukan (Lamb BBQ)<br>
+			•Hokkaido Dairy and Ramen<br>
+			•Seafood<br>
+			•Soup Curry<br>
+			<br>
+			<b>Cities and Resort Towns</b><br>
+			•Niseko<br>
+			•Sapporo<br>
+			•Furano<br>
+			•Otaru<br>
+			•Hakodate<br>
+			•Noboribetsu<br>
+			<br>
+			<b>Favorite Destinations</b><br>
+			Good locations to visit in Hokkaido include:<br>
+			•Shiretoko National Park<br>
+			•Lake Toya<br>
+			•Tomamu - the large ski resort in hokkaido<br>
+			•Matsumae Castle<br>
 			</div>
 		</div>
 	</div>
 	
 	<div class = "modal-prefecture" id = "mp02">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp02').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Tohuoku</b></div>
+			<span id = "sp2" onclick = "document.getElementById('mp02').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Tohoku.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
@@ -192,7 +172,8 @@
 	
 	<div class = "modal-prefecture" id = "mp03">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp03').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Kanto</b></div>
+			<span id = "sp3" onclick = "document.getElementById('mp03').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Kanto.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
@@ -213,7 +194,8 @@
 	
 	<div class = "modal-prefecture" id = "mp04">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp04').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Chubu</b></div>
+			<span id = "sp4" onclick = "document.getElementById('mp04').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Chubu.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
@@ -234,10 +216,11 @@
 	
 	<div class = "modal-prefecture" id = "mp05">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp05').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Kansai</b></div>
+			<span id = "sp5" onclick = "document.getElementById('mp05').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
-			<img src = "../Images/Kansei.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
+			<img src = "../Images/Kansai.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
 			<br>
 			<br>
 			<div class = "styling-line"></div>
@@ -257,7 +240,8 @@
 	
 	<div class = "modal-prefecture" id = "mp06">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp06').style.display = 'none'" class = "close" title = "Close Modal">&times;</span>
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Chugoku</b></div>
+			<span id = "sp6" onclick = "document.getElementById('mp06').style.display = 'none'" class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Chugoku.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
 			<br>
@@ -279,7 +263,8 @@
 	
 	<div class = "modal-prefecture" id = "mp07">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp07').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Shikoku</b></div>
+			<span id = "sp7" onclick = "document.getElementById('mp07').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Shikoku.jpg" alt = "Avatar" class = "img-container-prefecture"></img>
@@ -301,7 +286,8 @@
 	
 	<div class = "modal-prefecture" id = "mp08">
 		<div class = "modal-content-prefecture animate">
-			<span onclick = "document.getElementById('mp08').style.display = 'none'" 
+			<div class = "text-prefecture" style = "font-size: 15px; text-align: center;"><b>Kyushu-Okinawa</b></div>
+			<span id = "sp8" onclick = "document.getElementById('mp08').style.display = 'none'" 
 			class = "close" title = "Close Modal">&times;</span>
 			<br><br>
 			<img src = "../Images/Kyushu-Okinawa.jpg" alt = "Avatar" class = "img-container-prefecture"></img><br>
@@ -325,9 +311,6 @@
 	<script src = "../Scripts/Script2.js"></script>
 	<script src = "../Scripts/Script4.js"></script>
 	<script src = "../Scripts/Script6.js"></script>
-	<!---
-	<script src = "Script7.js"></script>
-	--->
 	<script src = "../Scripts/Website-container.js"></script>
 	<script src = "../Scripts/Splash-screen.js"></script>
 </body>
