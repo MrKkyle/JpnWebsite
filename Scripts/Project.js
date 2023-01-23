@@ -191,50 +191,6 @@ project9.onclick = function(event)
 }
 
 
-/* ------------INTERESTS--------------- */
-
-var kanagawa = document.getElementById("kanagawa");
-var tokyo = document.getElementById("tokyo");
-var sapporo = document.getElementById("sapporo");
-var shirakawa = document.getElementById("shirakawa");
-var osaka = document.getElementById("osaka");
-
-kanagawa.onclick = function(event)
-{
-    if(kanagawa.onclick)
-    {
-        window.location.href = "kanagawa.html";
-    }
-}
-tokyo.onclick = function(event)
-{
-    if(tokyo.onclick)
-    {
-        window.location.href = "tokyo.html";
-    }
-}
-sapporo.onclick = function(event)
-{
-    if(sapporo.onclick)
-    {
-        window.location.href = "sapporo.html";
-    }
-}
-shirakawa.onclick = function(event)
-{
-    if(shirakawa.onclick)
-    {
-        window.location.href = "shirakawa.html";
-    }
-}
-osaka.onclick = function(event)
-{
-    if(osaka.onclick)
-    {
-        window.location.href = "osaka.html";
-    }
-}
-
 
 
 
