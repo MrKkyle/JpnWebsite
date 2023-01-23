@@ -76,7 +76,16 @@ body
     z-index: -11;
     animation: fadeIn 1s ease-in forwards;
 }
-
+.video-container
+{
+    position: fixed;
+    display: block;
+    padding: 20px;
+    overflow: auto;
+    left: 20px;
+    top: 80px;
+    height: 700px;
+}
 .video-modal
 {
     position: fixed;
@@ -89,115 +98,51 @@ body
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
-.vid1
+.videos
 {
-    position: absolute;
-    left: 450px;
-    top: 100px;
+    position: relative;
+    left: 0px;
+    margin: 10px;
     background-color: rgba(0, 0, 0, 0.9);
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 115px;
     transition: 0.5s;
     z-index: 1;
     padding: 10px;
     text-decoration: none;
     text-align: center;
     color: white;
-    background-image: url("../Images/789465.jpg");
     background-position: center;
     background-size: cover;
 }
-.vid1:hover
+.videos:hover
 {
-    width: 450px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 1);
-    z-index: 2;
     color: black;
     cursor: pointer;
+}
+.vid1
+{
+    background-image: url("../Images/Fuji.jpg");
 }
 .vid2
 {
-    position: absolute;
-    left: 700px;
-    top: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 200px;
-    height: 200px;
-    transition: 0.5s;
-    z-index: 1;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    background-image: url("../Images/rafael-leao-ds9R8Cb1qLg-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-}
-.vid2:hover
-{
-    width: 450px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 1);
-    z-index: 2;
-    color: black;
-    cursor: pointer;
+    background-image: url("../Images/Shrines.jpg");
 }
 .vid3
 {
-    position: absolute;
-    left: 950px;
-    top: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 200px;
-    height: 200px;
-    transition: 0.5s;
-    z-index: 1;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    background-image: url("../Images/karen-z-OW5F_DMfb0E-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../Images/Transportation.jpg");
 }
-.vid3:hover
-{
-    width: 450px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 1);
-    z-index: 2;
-    color: black;
-    cursor: pointer;
-}
-
 .vid4
 {
-    position: absolute;
-    left: 1200px;
-    top: 100px;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 200px;
-    height: 200px;
-    transition: 0.5s;
-    z-index: 1;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    background-image: url("../Images/susann-schuster-agRClA9eyGk-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("../Images/Shotengai.jpg");
 }
-.vid4:hover
+.vid5
 {
-    width: 450px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 1);
-    z-index: 2;
-    margin-left: -250px;
-    color: black;
-    cursor: pointer;
+    background-image: url("../Images/Fireworks.jpg");
+}
+.vid6
+{
+    background-image: url("../Images/Festivals.jpg");
 }
 .video-player
 {
@@ -239,7 +184,7 @@ body
 .close
 {
 	position: absolute;
-	right: 5px;
+	right: 0px;
 	top: 0;
 	color: #ffffff;
 	font-size: 25px;
@@ -280,4 +225,27 @@ body
 .c:hover
 {
     color: black;
+}
+/* width */
+::-webkit-scrollbar 
+{
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #5c5c5e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: whitesmoke;
 }

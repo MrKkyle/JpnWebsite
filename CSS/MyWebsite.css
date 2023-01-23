@@ -945,3 +945,8 @@ a:visited
 {
     background: whitesmoke;
 }
+
+hr
+{
+	width: 50%;
+}
