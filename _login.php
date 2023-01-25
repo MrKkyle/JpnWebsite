@@ -31,7 +31,7 @@ if(mysqli_num_rows($query) > 0)
 }
 else
 {
-	header("location: Error-page.php");
+	header("location: Main/Error-page.php");
 }
  
 ?>
