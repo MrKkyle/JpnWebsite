@@ -137,18 +137,11 @@ img
 	from {opacity: 0.4}
 	to {opacity: 1}
 }
-
 @keyframes fade
 {
 	from {opacity : 0.4}
 	to {opacity: 1}
 }
-@keyframes fade
-{
-	from {opacity: 0.4}
-	to {opacity: 1}
-}
-
 /* On smaller screen, decrease text size */ 
 @media only screen and (max-width: 300px) 
 {

@@ -150,8 +150,8 @@ body
     position: fixed;
     left: 600px;
     top: 350px;
-    width: 680px;
-    height: 380px;
+    width: 700px;
+    height: 400px;
     background-color: rgba(17, 17, 17, 1);
     z-index: 2;
 }
@@ -184,7 +184,7 @@ body
 .close
 {
 	position: absolute;
-	right: 0px;
+	right: 5px;
 	top: 0;
 	color: #ffffff;
 	font-size: 25px;

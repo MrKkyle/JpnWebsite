@@ -58,6 +58,7 @@ h1
 	padding: 4px 6px;
 	text-align: center;
 	font-family: Lucida Sans;
+	width: 620px;
 }
 .text-bg-img
 {
@@ -416,7 +417,7 @@ span.psw
 	opacity: 0.9;
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.4);
-	top: 5%;
+	top: 0%;
 	left: 2%;
 	filter: blur(0px);
 	z-index: 1;
@@ -692,12 +693,21 @@ a:visited
 .container-ST
 {
 	position: absolute;
-    background-color: black;
-	bottom: 20%;
+	bottom: 25%;
     width: 1100px;
     height: 300px;
     border-radius: 5px;
-    background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+    border: 2px solid black; 
+	left: 2%;
+}
+.creator
+{
+	position: absolute;
+	bottom: 3%;
+    width: 1100px;
+    height: 250px;
+    border-radius: 5px;
 	background-color: rgba(0,0,0,0.4);
     border: 2px solid black; 
 	left: 2%;
@@ -747,6 +757,12 @@ a:visited
 	background-image: url("../Images/XAMPP.jpg");
 	left: 900px;
 	top: 80px;
+}
+.watashi
+{
+	background-image: url("../Images/creator.jpg");
+	left: 60px;
+	top: 60px;
 }
 
 .styling-line
