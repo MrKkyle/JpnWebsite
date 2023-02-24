@@ -13,19 +13,14 @@ body
 {
 
 	background-image: url("../Images/ji-seongkwang-htMMBc71Hjc-unsplash.jpg");
-	min-height: 640px;
-	height: 977px;
-	width: 1880px;
-	min-width: 480px;
-	
-	/* Center and scale the image nicely */
+	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #cccccc;
 	position: fixed;
 	margin: 0;
-	filter: blur(0px);
 }
 img
 {
@@ -105,31 +100,7 @@ h1
 
 }									
 									
-.button1:hover  			/* how to make a hovering effect button */ 
-{
-	color: white;
-	border: 2px solid white;
-	background-image: url("../Images/307582.jpg");
-	background-position: center;
-}					
-.button2 
-{
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-	cursor: pointer;
-	width: 150px; 
-	height: 50px;
-	position: relative;
-	background-image: url("../Images/307582.jpg");
-	background-size: cover;
-	color: black;
-	border: 2px solid #000000;
-	border-radius: 4px;
-	margin: 4px;
-	transition-duration: 0.4s;
-}
+
 .button2:hover
 {
 	color: white;
@@ -185,31 +156,6 @@ h1
 	float: right;
 }
 .button4:hover
-{
-	color: white;
-	border: 2px solid white;
-	background-position: center;
-	background-image: url("../Images/307582.jpg");
-}
-.button5
-{
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 16px;
-	cursor: pointer;
-	width: 150px;
-	height: 50px;
-	position: relative;
-	background-image: url("../Images/7307582.jpg");
-	background-size: cover;
-	color: black;
-	border: 2px solid #000000;
-	border-radius: 8px;
-	margin: 4px;
-	transition-duration: 0.4s;
-}	
-.button5:hover
 {
 	color: white;
 	border: 2px solid white;
